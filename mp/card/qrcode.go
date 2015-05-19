@@ -1,6 +1,6 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
+// @link        https://github.com/gogap/wechat for the canonical source repository
+// @license     https://github.com/gogap/wechat/blob/master/LICENSE
 // @authors     gaowenbin(gaowenbinmarr@gmail.com), chanxuehong(chanxuehong@gmail.com)
 
 package card
@@ -9,7 +9,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/chanxuehong/wechat/mp"
+	"github.com/gogap/wechat/mp"
 )
 
 // 根据二维码的ticket得到二维码图片的url

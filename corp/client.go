@@ -1,6 +1,6 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
+// @link        https://github.com/gogap/wechat for the canonical source repository
+// @license     https://github.com/gogap/wechat/blob/master/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com)
 
 // +build !wechatdebug
@@ -15,7 +15,7 @@ import (
 	"net/url"
 	"reflect"
 
-	wechatjson "github.com/chanxuehong/wechat/json"
+	wechatjson "github.com/gogap/wechat/json"
 )
 
 // 企业号"主动"请求功能的基本封装.

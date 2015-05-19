@@ -1,6 +1,6 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
+// @link        https://github.com/gogap/wechat for the canonical source repository
+// @license     https://github.com/gogap/wechat/blob/master/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com)
 
 // +build wechatdebug
@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/chanxuehong/wechat/util"
+	"github.com/gogap/wechat/util"
 )
 
 // 安全模式, 微信服务器推送过来的 http body
