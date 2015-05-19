@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/chanxuehong/session"
-	"github.com/chanxuehong/util/random"
-	"github.com/chanxuehong/wechat/mp/user/oauth2"
+	"github.com/gogap/session"
+	"github.com/gogap/util/random"
+	"github.com/gogap/wechat/mp/user/oauth2"
 )
 
 var (
@@ -120,9 +120,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/chanxuehong/session"
-	"github.com/chanxuehong/util/random"
-	"github.com/chanxuehong/wechat/mp/user/oauth2"
+	"github.com/gogap/session"
+	"github.com/gogap/util/random"
+	"github.com/gogap/wechat/mp/user/oauth2"
 )
 
 var (

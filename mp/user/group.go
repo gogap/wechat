@@ -1,6 +1,6 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
+// @link        https://github.com/gogap/wechat for the canonical source repository
+// @license     https://github.com/gogap/wechat/blob/master/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com)
 
 package user
@@ -8,7 +8,7 @@ package user
 import (
 	"errors"
 
-	"github.com/chanxuehong/wechat/mp"
+	"github.com/gogap/wechat/mp"
 )
 
 const GroupCountLimit = 100 // 一个公众账号，最多支持创建100个分组。

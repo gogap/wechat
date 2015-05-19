@@ -1,7 +1,7 @@
 # wechat SDK for go(golang)
 
 ## 历史版本
-https://github.com/chanxuehong/wechat/tree/legacy
+https://github.com/gogap/wechat/tree/legacy
 
 ## 联系方式
 
@@ -17,11 +17,11 @@ mch  微信商户平台（微信支付） SDK
 ## 安装
 通过执行下列语句就可以完成安装
 
-	go get -u github.com/chanxuehong/wechat/...
+	go get -u github.com/gogap/wechat/...
 
 ## 文档
 
-### [在线文档](http://godoc.org/github.com/chanxuehong/wechat)
+### [在线文档](http://godoc.org/github.com/gogap/wechat)
 
 ### 离线文档
 通过上面步骤下载下来后，可以在shell(windows 下面是 cmd) 里运行
@@ -38,11 +38,11 @@ mch  微信商户平台（微信支付） SDK
 如果这个项目对您有用，我们欢迎各方任何形式的捐助，也包括参与到项目代码更新或意见反馈中来。谢谢！
 
 资金捐助:  
-![捐助wechat](https://github.com/chanxuehong/wechat/blob/master/alipay.png)  
+![捐助wechat](https://github.com/gogap/wechat/blob/master/alipay.png)  
 
 支付宝账户: 15967396@qq.com
 
-### [捐助者列表](https://github.com/chanxuehong/wechat/blob/master/donors.md)
+### [捐助者列表](https://github.com/gogap/wechat/blob/master/donors.md)
 
 ## 授权(LICENSE)
 

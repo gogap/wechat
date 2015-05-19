@@ -2,7 +2,7 @@
 
 ## 整体架构图
 
-![架构图](https://github.com/chanxuehong/wechat/blob/master/corp/corp.png)
+![架构图](https://github.com/gogap/wechat/blob/master/corp/corp.png)
 
 ## 示例
 
@@ -13,8 +13,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/chanxuehong/wechat/corp"
-	"github.com/chanxuehong/wechat/corp/menu"
+	"github.com/gogap/wechat/corp"
+	"github.com/gogap/wechat/corp/menu"
 )
 
 var AccessTokenServer = corp.NewDefaultAccessTokenServer("corpId", "corpSecret", nil) // 一個應用只能有一個實例
@@ -49,10 +49,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/chanxuehong/wechat/corp"
-	"github.com/chanxuehong/wechat/corp/message/request"
-	"github.com/chanxuehong/wechat/corp/message/response"
-	"github.com/chanxuehong/wechat/util"
+	"github.com/gogap/wechat/corp"
+	"github.com/gogap/wechat/corp/message/request"
+	"github.com/gogap/wechat/corp/message/response"
+	"github.com/gogap/wechat/util"
 )
 
 // 非法请求的 Handler
@@ -98,10 +98,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/chanxuehong/wechat/corp"
-	"github.com/chanxuehong/wechat/corp/message/request"
-	"github.com/chanxuehong/wechat/corp/message/response"
-	"github.com/chanxuehong/wechat/util"
+	"github.com/gogap/wechat/corp"
+	"github.com/gogap/wechat/corp/message/request"
+	"github.com/gogap/wechat/corp/message/response"
+	"github.com/gogap/wechat/util"
 )
 
 // 非法请求的 Handler

@@ -1,6 +1,6 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
+// @link        https://github.com/gogap/wechat for the canonical source repository
+// @license     https://github.com/gogap/wechat/blob/master/LICENSE
 // @authors     chanxuehong(chanxuehong@gmail.com)
 
 package jssdk
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chanxuehong/wechat/corp"
+	"github.com/gogap/wechat/corp"
 )
 
 // jsapi_ticket 中控服务器接口.
@@ -155,7 +155,7 @@ func (srv *DefaultTicketServer) getTicket() (ticket ticketInfo, cached bool, err
 		ticketInfo
 	}
 
-	incompleteURL := "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token="
+	incompleteURL := "https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token="
 	if err = srv.corpClient.GetJSON(incompleteURL, &result); err != nil {
 		srv.ticketCache.Lock()
 		srv.ticketCache.Ticket = ""
